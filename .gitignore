@@ -1,0 +1,20 @@
+# Ignore massive library folders in ANY subproject
+**/node_modules/
+**/.next/
+**/.pnp/
+**/.pnp.*
+**/.yarn/
+
+# Ignore tool-specific junk
+**/.gemini/
+**/.antigravity/
+
+# Ignore build outputs
+**/dist/
+**/build/
+**/out/
+
+# Ignore OS and environment files
+.DS_Store
+.env*
+*.pem
